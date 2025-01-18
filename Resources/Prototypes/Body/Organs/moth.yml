@@ -4,17 +4,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Stomach
-    #specialDigestible: Corvax-MRP
+    specialDigestible:
       # tags: # Frontier
       # - ClothMade # Frontier
       # - Paper # Frontier
-      #components: # Frontier
-      #- MothFood # Frontier
-    specialDigestible: # Corvax-MRP
-      tags:
-      - ClothMade
-      - Paper
-
+      components: # Frontier
+      - MothFood # Frontier
   - type: SolutionContainerManager
     solutions:
       stomach:

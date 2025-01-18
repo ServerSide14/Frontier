@@ -6,10 +6,9 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
-using Content.Server.Administration.Managers;
 using Content.Server.Administration.Systems;
-using Content.Server.Database;
 using Content.Server.Administration.Managers;
+using Content.Server.Database;
 using Content.Server.GameTicking;
 using Content.Server.GameTicking.Presets;
 using Content.Server.GameTicking.Rules.Components;
@@ -17,7 +16,6 @@ using Content.Server.Maps;
 using Content.Server.RoundEnd;
 using Content.Shared.Administration;
 using Content.Shared.Administration.Managers;
-using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking.Components;
 using Content.Shared.Prototypes;
@@ -92,8 +90,8 @@ public sealed partial class ServerApi : IPostInjectInit
         RegisterActorHandler(HttpMethod.Post, "/admin/actions/force_preset", ActionForcePreset);
         RegisterActorHandler(HttpMethod.Post, "/admin/actions/set_motd", ActionForceMotd);
         RegisterActorHandler(HttpMethod.Patch, "/admin/actions/panic_bunker", ActionPanicPunker);
-
-        RegisterHandler(HttpMethod.Post, "/admin/actions/send_bwoink", ActionSendBwoink); // Frontier - Discord Ahelp Reply
+        // Frontier Discord Ahelp
+        // RegisterHandler(HttpMethod.Post, "/admin/actions/send_bwoink", ActionSendBwoink); // Frontier - Discord Ahelp Reply
     }
 
     public void Initialize()
@@ -408,11 +406,11 @@ public sealed partial class ServerApi : IPostInjectInit
         });
     }
     #endregion
-
+    // Frontier Discord Ahelp
     #region Frontier
     // Creating a region here incase more actions are added in the future
 
-    private async Task ActionSendBwoink(IStatusHandlerContext context)
+    /*private async Task ActionSendBwoink(IStatusHandlerContext context)
     {
         var body = await ReadJson<BwoinkActionBody>(context);
         if (body == null)
@@ -440,7 +438,8 @@ public sealed partial class ServerApi : IPostInjectInit
     });
 
 
-    }
+    }*/
+    #endregion
 
     private async Task ActionAhelpSend(IStatusHandlerContext context, Actor actor)
     {
@@ -470,8 +469,6 @@ public sealed partial class ServerApi : IPostInjectInit
             });
         }
     }
-
-    #endregion
 
     #region Fetching
 
@@ -712,14 +709,15 @@ public sealed partial class ServerApi : IPostInjectInit
         public required string Motd { get; init; }
     }
 
-    public sealed class BwoinkActionBody
+    // Frontier Discord Ahelp
+    /*public sealed class BwoinkActionBody
     {
         public required string Text { get; init; }
         public required string Username { get; init; }
         public required Guid Guid { get; init; }
         public bool UserOnly { get; init; }
         public required bool WebhookUpdate { get; init; }
-    }
+    }*/
 
     #endregion
 

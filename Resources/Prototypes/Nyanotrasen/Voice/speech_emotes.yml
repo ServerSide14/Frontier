@@ -176,9 +176,6 @@
     - purr
     - purrs
     - purring
-    - purred
-    - purring.
-    - purred.
     # Corvax-Localization-Start
     - мурчит
     - мурчит.
@@ -186,12 +183,6 @@
     - мурчит~
     - мурлычет
     - мурлычет.
-    - мурлычет!
-    - мурлычет~
-    - мурлыкает
-    - мурлыкает.
-    - мурлыкает!
-    - мурлыкает~
     # Corvax-Localization-End
 
 - type: emote
@@ -208,18 +199,9 @@
     - BorgChassis
   chatMessages: [мурлычет!]
   chatTriggers:
-    - purr
-    - purrs
-    - purring
     - purred
     - purring.
     - purred.
-    - мурчит
-    - мурчит.
-    - мурчит!
-    - мурчит~
-    - мурлычет
-    - мурлычет.
     - мурлычет!
     - мурлычет~
     - мурлыкает

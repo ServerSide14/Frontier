@@ -16,6 +16,7 @@
 <GuideEntityEmbed Entity="PinpointerStation" Caption="пинпоинтер"/>
 
 ## Костюм Ниндзя
+
 <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="костюм ниндзя"/>
 
 Самым важным предметом является ваш костюм, без него ни одна из ваших способностей не будет работать.

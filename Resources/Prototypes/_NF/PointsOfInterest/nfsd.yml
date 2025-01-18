@@ -10,6 +10,7 @@
 #
 - type: pointOfInterest
   id: Nfsd
+  parent: BasePOI
   name: 'Аванпост ДСБФ'
   minimumDistance: 750
   maximumDistance: 1000
@@ -18,10 +19,6 @@
   addComponents:
   - type: IFF
     color: "#8e6444"
-    readOnly: true
-  - type: Shuttle
-    angularDamping: 999999
-    linearDamping: 999999
   - type: ProtectedGrid
     preventEmpEvents: true
 

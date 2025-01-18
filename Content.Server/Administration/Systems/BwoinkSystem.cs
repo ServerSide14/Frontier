@@ -632,14 +632,14 @@ namespace Content.Server.Administration.Systems
         }
 
         // Frontier: webhook text messages
-        public void OnWebhookBwoinkTextMessage(BwoinkTextMessage message, ServerApi.BwoinkActionBody body)
+        /*public void OnWebhookBwoinkTextMessage(BwoinkTextMessage message, ServerApi.BwoinkActionBody body)
         {
             // Note for forks:
             AdminData webhookAdminData = new();
 
             // TODO: fix args
             OnBwoinkInternal(message, SystemUserId, webhookAdminData, body.Username, null, body.UserOnly, body.WebhookUpdate, true);
-        }
+        }*/
 
         protected override void OnBwoinkTextMessage(BwoinkTextMessage message, EntitySessionEventArgs eventArgs)
         {

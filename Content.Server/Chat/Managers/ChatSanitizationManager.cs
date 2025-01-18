@@ -118,7 +118,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "kek", "chatsan-laughs" },
         { "rofl", "chatsan-laughs" },
         { "o7", "chatsan-salutes" },
-        { ";_;7", "chatsan-tearfully-salutes" },
+        { ";_;7", "chatsan-tearfully-salutes"},
         { "idk", "chatsan-shrugs" },
         { ";)", "chatsan-winks" },
         { ";]", "chatsan-winks" },

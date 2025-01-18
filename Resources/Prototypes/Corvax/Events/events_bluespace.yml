@@ -40,8 +40,10 @@
         - /Maps/Corvax/Bluespace/RuinedInv.yml #Corvax-Frontier
         - /Maps/Corvax/Bluespace/RuinedSprinter.yml #Corvax-Frontier
         - /Maps/Corvax/Bluespace/cargomc.yml #Corvax-Frontier
-        
-        
+
+
+
+
 - type: entity
   id: BluespaceSyndicateFTLRepeater
   parent: BaseStationEventShortDelay

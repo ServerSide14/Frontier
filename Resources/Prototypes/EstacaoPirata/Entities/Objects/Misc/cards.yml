@@ -193,6 +193,8 @@
   - type: StaticPrice # Frontier
     price: 0.01 # Frontier
 
+# region Black Cards
+
 - type: entity
   parent: CardBase
   categories: [ HideSpawnMenu ]
@@ -780,4 +782,5 @@
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: black_joker
-# endregion Black Deck
+
+# endregion Black Cards

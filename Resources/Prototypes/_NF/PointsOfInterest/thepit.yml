@@ -10,6 +10,7 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: ThePit
+  parent: BasePOI
   name: "Бойцовская Яма"
   minimumDistance: 2200
   maximumDistance: 4200
@@ -18,10 +19,6 @@
   addComponents:
   - type: IFF
     color: "#ffa600"
-    readOnly: true
-  - type: Shuttle
-    angularDamping: 999999
-    linearDamping: 999999
 
 - type: gameMap
   id: ThePit

@@ -2700,17 +2700,6 @@ entities:
           - type: Transform
             pos: -0.5,21.5
             parent: 1
-  - proto: ComputerTabletopAnalysisConsole
-    entities:
-      - uid: 1038
-        components:
-          - type: Transform
-            pos: -6.5,7.5
-            parent: 1
-          - type: DeviceLinkSource
-            linkedPorts:
-              348:
-                - ArtifactAnalyzerSender: ArtifactAnalyzerReceiver
   - proto: ComputerTabletopResearchAndDevelopment
     entities:
       - uid: 1037
@@ -4989,17 +4978,6 @@ entities:
           - type: Transform
             pos: 7.238914,7.4961095
             parent: 1
-  - proto: MachineArtifactAnalyzer
-    entities:
-      - uid: 348
-        components:
-          - type: Transform
-            rot: 1.5707963267948966 rad
-            pos: -9.5,9.5
-            parent: 1
-          - type: DeviceLinkSink
-            links:
-              - 1038
   - proto: MachineArtifactCrusher
     entities:
       - uid: 1035

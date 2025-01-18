@@ -66,14 +66,14 @@
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
   </Box>
 
-  Space dragons are giant extradimensional fish that can [color=red]eat crew[/color] and create [color=#4b7fcc]carp rifts.[/color]
-  - Dragons have powerful jaws that allow them to [color=red][italic]Devour[/italic][/color] infrastructure such as doors, windows, and walls.
-  - They can also heal themselves by using [color=red][italic]Devour[/italic][/color] on crew members that have gone unconscious or have died.
-  - Your [color=orange][italic]Dragon's Breath[/italic][/color] is a [bold]flaming projectile[/bold] which travels a straight flight path, exploding multiple times and igniting things along the way. Try not to hit your carps with this!
-  - You have the ability to [color=#4b7fcc][italic]Summon a Carp Rift[/italic][/color]. Rifts periodically spawn [bold]space carp[/bold] and charge up energy over a period of 5 minutes, [bold]which is when it's vulnerable.[/bold] After 5 minutes, it becomes invulnerable and will continue summoning carp as long as the dragon lives.
-  - You'll suffer a [bold]temporary debilitating feedback effect[/bold] if one of your rifts are destroyed before it's done charging.
-  - If a period of five minutes passes since your spawn or since the last time a rift was charging, [bold]you'll disappear.[/bold]
-  - Dragons who have the maximum of 3 fully charged rifts will [bold]never disappear[/bold], but they are still mortal.
+  Космические драконы — это гигантские внеизмеренные рыбы, которые [color=cyan]создают разломы и пожирают экипаж.[/color]
+  - Драконы обладают мощными челюстями, позволяющими [bold]поглощать[/bold] инфраструктуру, такую как двери, окна и стены.
+  - Ваш [color=orange]драконий огонь[/color] — это огненный снаряд, летящий по прямой траектории, взрывающийся несколько раз и поджигающий всё на своём пути. Будьте осторожны, ваши карпы не застрахованы от этого!
+  - У вас есть способность вызывать [bold]разломы карпов[/bold], из которых периодически появляются [bold]космические карпы[/bold]. Одновременно может быть активно до 3 разломов.
+  - Разломы накапливают энергию в течение 5 минут и в этот период остаются [bold]уязвимыми[/bold]. После 5 минут они становятся неуязвимыми и продолжают призывать карпов, пока дракон остаётся в живых.
+  - Если один из ваших разломов будет уничтожен до завершения зарядки, вы испытаете [bold]временный ослабляющий откат[/bold].
+  - Если пройдёт 5 минут с момента вашего появления или с последней зарядки разлома, [bold]вы исчезнете.[/bold]
+  - Драконы, имеющие 3 полностью заряженных разлома, [bold]никогда не исчезнут[/bold], но остаются смертными.
 
   # Slimes and Spiders
 
