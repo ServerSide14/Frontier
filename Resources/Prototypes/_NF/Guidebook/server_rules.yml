@@ -1,0 +1,63 @@
+- type: guideEntry
+  id: ServerRules
+  name: guide-entry-server-rules
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/ServerRules.xml"
+  priority: -2
+  ruleEntry: true
+  children:
+    - ServerRule0
+    - ServerRule1
+    - ServerRule2
+    - ServerRule3
+    - ServerRule4
+    - ServerRule5
+    - ServerRule6
+    - ServerRule7
+
+- type: guideEntry
+  id: ServerRule0
+  name: guide-entry-server-rule-0
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/0_Admin.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule1
+  name: guide-entry-server-rule-1
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/1_Grief.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule2
+  name: guide-entry-server-rule-2
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/2_Kill.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule3
+  name: guide-entry-server-rule-3
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/3_Atmos.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule4
+  name: guide-entry-server-rule-4
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/4_Antag.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule5
+  name: guide-entry-server-rule-5
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/5_Safe.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule6
+  name: guide-entry-server-rule-6
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/6_ERP.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: ServerRule7
+  name: guide-entry-server-rule-7
+  text: "/ServerInfo/_NF/Guidebook/ServerRules/7_Cheating.xml"
+  ruleEntry: true

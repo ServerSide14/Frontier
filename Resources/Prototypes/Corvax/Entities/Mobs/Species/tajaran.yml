@@ -16,6 +16,7 @@
       Dead: 0
     baseDecayRate: 0.02
   - type: Thirst # on 1.5x more
+  - type: Carriable
     thresholds:
       OverHydrated: 650
       Okay: 500
@@ -83,7 +84,34 @@
     damageRecovery:
       types:
         Asphyxiation: -2.0
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeat
+      amount: 4
   - type: Wagging
+  - type: Temperature
+    heatDamageThreshold: 390
+    coldDamageThreshold: 230
+  - type: TemperatureSpeed
+    thresholds:
+      289: 0.8
+      275: 0.6
+      250: 0.4
+  - type: Sprite
+    scale: 0.85, 0.85
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.30
+        density: 85
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
 
 - type: entity
   save: false

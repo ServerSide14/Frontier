@@ -133,3 +133,12 @@ guide-entry-rules-ban-types = Ban Types
 guide-entry-rules-ban-durations = Ban Durations
 guide-entry-writing = Разметка письма
 guide-entry-glossary = Словарь терминов
+
+guide-entry-server-rule-0 = Не будь мудаком
+guide-entry-server-rule-1 = Гриф
+guide-entry-server-rule-2 = Убийство
+guide-entry-server-rule-3 = Нарушение игровой атмосферы
+guide-entry-server-rule-4 = Ответственная игра за антагонистов
+guide-entry-server-rule-5 = Соблюдение безопасных зон Фронтира
+guide-entry-server-rule-6 = Эротические ролевые игры
+guide-entry-server-rule-7 = Нечестная игра

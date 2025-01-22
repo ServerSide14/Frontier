@@ -90,3 +90,12 @@ guide-entry-frontier-rule-9 = 9. Security
 guide-entry-frontier-rule-10 = 10. Command
 guide-entry-frontier-rule-11 = 11. Escalation
 guide-entry-frontier-rule-12 = 12. PVP
+
+guide-entry-server-rule-0 = Admins
+guide-entry-server-rule-1 = Grief
+guide-entry-server-rule-2 = Kill
+guide-entry-server-rule-3 = Respectful Environment
+guide-entry-server-rule-4 = Antagonists
+guide-entry-server-rule-5 = Safe Zones
+guide-entry-server-rule-6 = Erotic Roleplay
+guide-entry-server-rule-7 = Cheating
