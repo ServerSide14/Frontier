@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Copyright by https://github.com/ss220-space/Paradise",
+    "copyright": "Copyright by https://github.com/ss220-space/Paradise, KillBillE",
     "size": {
       "x": 32,
       "y": 32
@@ -89,6 +89,46 @@
       },
       {
         "name": "points_rleg",
+        "directions": 4
+      },
+      {
+        "name": "tiger_body_f",
+        "directions": 4
+      },
+      {
+        "name": "tiger_body_m",
+        "directions": 4
+      },
+      {
+        "name": "tiger_larm",
+        "directions": 4
+      },
+      {
+        "name": "tiger_lleg",
+        "directions": 4
+      },
+      {
+        "name": "tiger_rarm",
+        "directions": 4
+      },
+      {
+        "name": "tiger_rleg",
+        "directions": 4
+      },
+      {
+        "name": "tigerfullbelly_body_f_back",
+        "directions": 4
+      },
+      {
+        "name": "tigerfullbelly_body_f_front",
+        "directions": 4
+      },
+      {
+        "name": "tigerfullbelly_body_m_back",
+        "directions": 4
+      },
+      {
+        "name": "tigerfullbelly_body_m_front",
         "directions": 4
       }
     ]

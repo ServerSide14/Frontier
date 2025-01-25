@@ -191,3 +191,85 @@
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
       state: points_rleg
+
+# TIGER STRIPES
+
+- type: marking
+  id: TajaranTigerStripesChestFemale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_body_f
+
+- type: marking
+  id: TajaranTigerStripesChestMale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_body_m
+
+- type: marking
+  id: TajaranTigerStripesArmLeft
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_larm
+
+
+- type: marking
+  id: TajaranTigerStripesLegLeft
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_lleg
+
+- type: marking
+  id: TajaranTigerStripesArmRight
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_rarm
+
+
+- type: marking
+  id: TajaranTigerStripesLegRight
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_rleg
+
+# TIGER STRIPES & FULL BELLY
+
+- type: marking
+  id: TajaranTigerFullBellyChestM
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_m_back
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_m_front
+
+- type: marking
+  id: TajaranTigerFullBellyChestF
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_f_back
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_f_front
