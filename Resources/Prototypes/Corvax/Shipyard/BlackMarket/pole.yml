@@ -1,5 +1,6 @@
 - type: vessel
-  id: pole
+  id: Poli
+  parent: BaseVessel
   name: Полюс
   description: Большой пиратский шаттл.
   price: 100000

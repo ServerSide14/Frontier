@@ -5955,8 +5955,13 @@ entities:
       id: corvaxFrontier
     - type: StationTransit
     - type: ProtectedGrid
-      hostileMobKillSound: !type:SoundPathSpecifier
-        path: /Audio/Effects/holy.ogg
+      preventArtifactTriggers: True
+      preventExplosions: True
+      preventEmpEvents: True
+      preventRCDUse: True
+      preventFloorPlacement: True
+      preventFloorRemoval: True
+      killHostileMobs: True
     - type: IFF
   - uid: 7410
     components:

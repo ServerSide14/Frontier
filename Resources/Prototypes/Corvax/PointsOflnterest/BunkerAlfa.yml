@@ -12,6 +12,7 @@
   - type: Shuttle
     angularDamping: 999999
     linearDamping: 999999
+  - type: SyndicateFOB # For pinpointer
 
 - type: gameMap
   id: Bunkeralfa
