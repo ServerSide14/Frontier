@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Created by discord:IAmRasputin#5242",
+    "copyright": "Created by discord:IAmRasputin#5242, tajaran by kyrbi (discord)",
 
     "size": {
         "x": 32,
@@ -60,6 +60,14 @@
         },
         {
             "name": "on-equipped-HELMET-vox",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-tajaran",
             "directions": 4
         }
     ]

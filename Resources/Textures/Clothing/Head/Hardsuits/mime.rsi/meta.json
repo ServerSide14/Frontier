@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Sprited by Roudenn(https://github.com/Roudenn)",
+  "copyright": "Sprited by Roudenn(https://github.com/Roudenn), tajaran by kyrbi (discord)",
   "size": {
     "x": 32,
     "y": 32
@@ -36,6 +36,14 @@
     {
       "name": "on-equipped-HELMET-resomi",
       "directions": 4
+    },
+    {
+        "name": "off-equipped-HELMET-tajaran",
+        "directions": 4
+    },
+    {
+        "name": "on-equipped-HELMET-tajaran",
+        "directions": 4
     }
   ]
 }

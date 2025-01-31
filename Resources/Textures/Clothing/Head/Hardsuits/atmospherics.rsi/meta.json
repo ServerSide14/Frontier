@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/97ec5ed1a0fc8263df5df5a5afbb653d4684992e & light version made by github:Morb0",
+    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/97ec5ed1a0fc8263df5df5a5afbb653d4684992e & light version made by github:Morb0, tajaran by kyrbi (discord)",
     "size": {
         "x": 32,
         "y": 32
@@ -57,6 +57,14 @@
         },
         {
             "name": "equipped-head-vox",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-unshaded-tajaran",
             "directions": 4
         }
     ]

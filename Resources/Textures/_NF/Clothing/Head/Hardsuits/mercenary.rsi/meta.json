@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "copyright": "Resprite by kbas5 on discord",
+    "copyright": "Resprite by kbas5 on discord, tajaran by kyrbi (discord)",
     "license": "CC-BY-SA-3.0",
     "size": {
         "x": 32,
@@ -43,6 +43,14 @@
         },
         {
             "name": "on-equipped-HELMET-vulpkanin",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-tajaran",
             "directions": 4
         },
         {

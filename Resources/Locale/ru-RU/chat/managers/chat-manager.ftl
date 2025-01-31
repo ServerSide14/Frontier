@@ -121,3 +121,7 @@ chat-speech-verb-name-electricity = Электричество
 chat-speech-verb-electricity-1 = трещит
 chat-speech-verb-electricity-2 = гудит
 chat-speech-verb-electricity-3 = скрипит
+chat-speech-verb-name-tajaran = Таяран
+chat-speech-verb-tajaran-1 = мурлычет
+chat-speech-verb-tajaran-2 = мурчит
+chat-speech-verb-tajaran-3 = рычит

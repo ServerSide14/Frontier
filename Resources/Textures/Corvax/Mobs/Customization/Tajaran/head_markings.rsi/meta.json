@@ -48,6 +48,10 @@
         "directions": 4
       },
       {
+        "name": "snout_whiskers_s",
+        "directions": 4
+      },
+      {
         "name": "tiger_head_s",
         "directions": 4
       },

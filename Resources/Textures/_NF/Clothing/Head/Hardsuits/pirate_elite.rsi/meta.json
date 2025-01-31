@@ -1,6 +1,6 @@
 {
     "license": "CC-BY-NC-SA-4.0",
-    "copyright": "Content created by Bing Guss for Frontier Server (ReSprite by 5600i for Corvax)",
+    "copyright": "Content created by Bing Guss for Frontier Server (ReSprite by 5600i for Corvax), tajaran by kyrbi (discord)",
     "size": {
         "x": 32,
         "y": 32
@@ -34,6 +34,14 @@
         },
         {
             "name": "on-equipped-HELMET-reptilian",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-tajaran",
             "directions": 4
         }
     ],

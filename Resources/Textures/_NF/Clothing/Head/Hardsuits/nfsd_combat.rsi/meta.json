@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Resprite created by kbas5",
+    "copyright": "Resprite created by kbas5, tajaran by kyrbi (discord)",
     "size": {
         "x": 32,
         "y": 32
@@ -51,6 +51,14 @@
         },
         {
             "name": "on-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-tajaran",
             "directions": 4
         }
     ]

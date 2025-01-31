@@ -30,6 +30,9 @@ chat-emote-name-monkeyscreeches = Monkey Screeches
 chat-emote-name-robotbeep = Robot
 chat-emote-name-yawn = Yawn
 chat-emote-name-snore = Snore
+chat-emote-name-hiss = Hiss
+chat-emote-name-purr = Purr
+chat-emote-name-tajaran_purr_long = Purr(longer)
 
 # Message
 chat-emote-msg-scream = screams!

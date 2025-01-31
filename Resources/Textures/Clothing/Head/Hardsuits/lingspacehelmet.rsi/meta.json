@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tg at https://github.com/tgstation/tgstation/blob/master/icons/mob/clothing/head.dmi",
+  "copyright": "Taken from tg at https://github.com/tgstation/tgstation/blob/master/icons/mob/clothing/head.dmi, tajaran by kyrbi (discord)",
   "size": {
     "x": 32,
     "y": 32
@@ -25,6 +25,10 @@
     {
       "name": "inhand-right",
       "directions": 4
+    },
+    {
+        "name": "equipped-HELMET-tajaran",
+        "directions": 4
     }
   ]
 }

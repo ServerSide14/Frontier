@@ -7,6 +7,9 @@
   components:
   - type: HumanoidAppearance
     species: Tajaran
+    hideLayersOnEquip:
+    - Hair
+    - Snout
   - type: Hunger # on 1.5x more
     thresholds:
       Overfed: 250
@@ -16,7 +19,6 @@
       Dead: 0
     baseDecayRate: 0.02
   - type: Thirst # on 1.5x more
-  - type: Carriable
     thresholds:
       OverHydrated: 650
       Okay: 500
@@ -24,6 +26,9 @@
       Parched: 200
       Dead: 0
     baseDecayRate: 0.15
+  - type: Carriable
+  - type: TypingIndicator
+    proto: tajaran
   - type: Icon
     sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
     state: full
@@ -31,7 +36,7 @@
     prototype: Tajaran
     requiredLegs: 2
   - type: Inventory
-    speciesId: reptilian
+    speciesId: tajaran
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -59,7 +64,7 @@
     maxZoom: "1.125, 1.125"
   - type: Speech #TODOLIST Make sounds
     #speechSounds:
-    #speechVerb:
+    speechVerb: Tajaran
     allowedEmotes: ['Purr', 'PurrLong', 'Hiss']
   - type: Vocal
     sounds:
@@ -69,11 +74,12 @@
   - type: GrowlingAccent
   - type: MeleeWeapon
     animation: WeaponArcClaw
+    attackRate: 1.25
     soundHit:
       collection: AlienClaw
     damage:
       types:
-        Slash: 5
+        Slash: 4
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Tajaran
@@ -98,6 +104,9 @@
       289: 0.8
       275: 0.6
       250: 0.4
+  - type: TemperatureProtection
+    coolingCoefficient: 0.4
+    heatingCoefficient: 0.4
   - type: Sprite
     scale: 0.85, 0.85
   - type: Fixtures
@@ -106,12 +115,16 @@
         shape:
           !type:PhysShapeCircle
           radius: 0.30
-        density: 85
+        density: 125
         restitution: 0.0
         mask:
         - MobMask
         layer:
         - MobLayer
+  - type: KeenHearing
+    visionRadius: 8
+    highSensitiveVisionRadius: 4
+    addAction: true
 
 - type: entity
   save: false
@@ -124,8 +137,7 @@
   - type: HumanoidAppearance
     species: Tajaran
   - type: Inventory
-    speciesId: reptilian
-    templateId: digitigrade
+    speciesId: tajaran
     femaleDisplacements:
       jumpsuit:
         sizeMaps:

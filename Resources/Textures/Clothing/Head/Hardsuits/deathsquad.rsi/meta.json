@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Created by discord:IAmRasputin#5242",
+    "copyright": "Created by discord:IAmRasputin#5242, tajaran by kyrbi (discord)",
     "size": {
         "x": 32,
         "y": 32
@@ -18,11 +18,19 @@
             "directions": 4
         },
         {
+            "name": "equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
             "name": "off-equipped-HELMET",
             "directions": 4
         },
         {
             "name": "off-equipped-HELMET-resomi",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-tajaran",
             "directions": 4
         },
         {
@@ -39,6 +47,10 @@
         },
         {
             "name": "on-equipped-HELMET-resomi",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-tajaran",
             "directions": 4
         },
         {

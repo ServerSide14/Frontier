@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "ported from https://github.com/SerbiaStrong-220/space-station-14",
+    "copyright": "By Vimenant2(discord)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+          "name": "icon"
+        },
+        {
+          "name": "icon-human"
+        }
+    ]
+}

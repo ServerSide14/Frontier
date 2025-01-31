@@ -151,3 +151,8 @@ chat-speech-verb-name-electricity = Electricity
 chat-speech-verb-electricity-1 = crackles
 chat-speech-verb-electricity-2 = buzzes
 chat-speech-verb-electricity-3 = screeches
+
+chat-speech-verb-name-tajaran = tajaran
+chat-speech-verb-tajaran-1 = mrowls
+chat-speech-verb-tajaran-2 = purrs
+chat-speech-verb-tajaran-3 = growls
