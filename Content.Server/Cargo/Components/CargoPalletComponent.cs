@@ -11,7 +11,8 @@ public enum BuySellType : byte
 {
     Buy = 1 << 0,
     Sell = 1 << 1,
-    All = Buy | Sell
+    Basic = 1 << 2,
+    All = Buy | Sell | Basic
 }
 
 

@@ -4,6 +4,8 @@
   description: Designates valid items to sell to CentCom.
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructure] # Frontier - BaseStructureDisabledToolsUse,BaseStructureIndestructible
   components:
+  - type: CargoPallet
+    palletType: basic
   - type: InteractionOutline
   - type: Anchorable
     flags:
