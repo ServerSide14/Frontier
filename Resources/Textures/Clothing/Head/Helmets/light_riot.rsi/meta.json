@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/d90c7e5de6f6d94596c164da78dbc8d3cd35bb99 and modified by Flareguy for SS14; colors tweaked by saintmuntzer",
+    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/d90c7e5de6f6d94596c164da78dbc8d3cd35bb99 and modified by Flareguy for SS14; colors tweaked by saintmuntzer, tajaran by kyrbi (discord)",
     "size": {
         "x": 32,
         "y": 32
@@ -39,6 +39,14 @@
         },
         {
             "name": "on-inhand-right",
+            "directions": 4
+        },
+        {
+          "name": "equipped-HELMET-tajaran",
+          "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-tajaran",
             "directions": 4
         }
     ]
