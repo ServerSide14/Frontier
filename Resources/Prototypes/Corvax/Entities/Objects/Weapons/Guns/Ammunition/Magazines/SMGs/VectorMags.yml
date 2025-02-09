@@ -101,7 +101,7 @@
     whitelist:
       tags:
         - CartridgeVector45
-    capacity: 13
+    capacity: 25
   - type: Item
     size: Small
   - type: ContainerContainer
