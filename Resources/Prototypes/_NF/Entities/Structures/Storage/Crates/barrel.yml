@@ -29,6 +29,10 @@
     solution: tank
   - type: InjectableSolution
     solution: tank
+  - type: RefillableSolution # khorinis
+    solution: tank
+  - type: SolutionTransfer # khorinis
+    canChangeTransferAmount: true
   - type: Spillable
     solution: tank
     spillDelay: 10

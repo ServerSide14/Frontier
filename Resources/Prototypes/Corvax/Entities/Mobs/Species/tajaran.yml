@@ -17,15 +17,14 @@
       Peckish: 150
       Starving: 100
       Dead: 0
-    baseDecayRate: 0.02
-  - type: Thirst # on 1.5x more
+    baseDecayRate: 0.03
+  - type: Thirst
     thresholds:
       OverHydrated: 650
       Okay: 500
       Thirsty: 350
       Parched: 200
       Dead: 0
-    baseDecayRate: 0.15
   - type: Carriable
   - type: TypingIndicator
     proto: tajaran
