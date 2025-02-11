@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "ported from https://github.com/SerbiaStrong-220/space-station-14",
-    "copyright": "By MIXnikita",
+    "license": "CC-BY-SA-3.0",
+    "copyright": "ported from https://github.com/SerbiaStrong-220/space-station-14, original By MIXnikita",
     "size": {
         "x": 32,
         "y": 32
