@@ -303,6 +303,9 @@
   parent: BaseGameRule
   components:
   - type: BasicStationEventScheduler
+    minMaxEventTiming:
+      min: 360 # 6 mins Khorinis
+      max: 1200 # 20 mins Khorinis
     scheduledGameRules: !type:NestedSelector
       tableId: BasicGameRulesTable
 
@@ -311,7 +314,10 @@
   parent: BaseGameRule
   components:
   - type: RampingStationEventScheduler
-    scheduledGameRules: !type:NestedSelector
+    minMaxEventTiming:
+      min: 360 # 6 mins Khorinis
+      max: 1200 # 20 mins Khorinis
+  scheduledGameRules: !type:NestedSelector
       tableId: BasicGameRulesTable
 
 - type: entity
