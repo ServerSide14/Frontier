@@ -314,9 +314,8 @@
   parent: BaseGameRule
   components:
   - type: RampingStationEventScheduler
-    minMaxEventTiming:
-      min: 360 # 6 mins Khorinis
-      max: 1200 # 20 mins Khorinis
+    averageChaos: 10 # Khorinis test (base 12)
+    averageEndTime: 420 # Khorinis test (base 90)
     scheduledGameRules: !type:NestedSelector
       tableId: BasicGameRulesTable
 
