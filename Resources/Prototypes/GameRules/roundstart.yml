@@ -317,7 +317,7 @@
     minMaxEventTiming:
       min: 360 # 6 mins Khorinis
       max: 1200 # 20 mins Khorinis
-  scheduledGameRules: !type:NestedSelector
+    scheduledGameRules: !type:NestedSelector
       tableId: BasicGameRulesTable
 
 - type: entity
