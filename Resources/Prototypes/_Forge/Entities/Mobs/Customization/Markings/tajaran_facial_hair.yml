@@ -1,0 +1,91 @@
+- type: marking
+  id: TajaranFacialHairGoateeFaded
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_goatee_faded_s
+
+- type: marking
+  id: TajaranFacialHairGoatee
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_goatee_s
+
+- type: marking
+  id: TajaranFacialHairHulkhogan
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_hulkhogan_s
+
+- type: marking
+  id: TajaranFacialHairLongMoustache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_long_moustache_s
+
+- type: marking
+  id: TajaranFacialHairMoustache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_moustache_s
+
+- type: marking
+  id: TajaranFacialHairMutton
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_mutton_s
+
+- type: marking
+  id: TajaranFacialHairPencilstache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_pencilstache_s
+
+- type: marking
+  id: TajaranFacialHairSideburns
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_sideburns_s
+
+- type: marking
+  id: TajaranFacialHairSmallstache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_smallstache_s
+
+- type: marking
+  id: TajaranFacialHairTrimoustache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/facial_hair.rsi
+      state: facial_trimoustache_s
+
+

@@ -1,0 +1,47 @@
+# Author Info
+# GitHub: -
+# Discord:  terrafrog
+# License: CC-BY-NC-ND-3.0
+# Corvax_frontier
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn
+# Discord: mersen
+
+# Shuttle Notes:
+- type: vessel
+  id: Poli
+  parent: BaseVessel
+  name: Полюс
+  description: Большой пиратский шаттл.
+  price: 100000
+  category: Large
+  group: BlackMarket
+<<<<<<<< HEAD:Resources/Prototypes/_Forge/Shipyard/BlackMarket/pole.yml
+  shuttlePath: /Maps/Corvax/Shuttles/BlackMarket/pole.yml
+
+- type: gameMap
+  id: pole
+  mapName: 'pole'
+  mapPath: /Maps/Corvax/Shuttles/BlackMarket/pole.yml
+========
+  shuttlePath: /Maps/Forge/Shuttles/BlackMarket/Poli.yml
+  addComponents:
+  - type: IFF
+    flags: [HideLabel]
+
+- type: gameMap
+  id: Poli
+  mapName: 'Poli'
+  mapPath: /Maps/Forge/Shuttles/BlackMarket/Poli.yml
+>>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Shipyard/BlackMarket/Poli.yml
+  minPlayers: 0
+  stations:
+    pole:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Газовый Гигант {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

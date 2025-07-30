@@ -1,0 +1,89 @@
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Body/Prototypes/tajaran.yml
+- type: body
+  name: "tajaran"
+=======
+﻿- type: body
+  name: "Tajaran"
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Body/Prototypes/tajaran.yml
+  id: Tajaran
+  root: torso
+  slots:
+    head:
+      part: HeadTajaran
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoTajaran
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Body/Prototypes/tajaran.yml
+=======
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      - head
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Body/Prototypes/tajaran.yml
+      organs:
+        heart: OrganAnimalHeart
+        lungs: OrganHumanLungs
+        stomach: OrganTajaranStomach
+        liver: OrganAnimalLiver
+        kidneys: OrganHumanKidneys
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Body/Prototypes/tajaran.yml
+      connections:
+      - right_arm
+      - left_arm
+      - right_leg
+      - left_leg
+    right_arm:
+      part: RightArmTajaran
+      connections:
+      - right_hand
+    left_arm:
+      part: LeftArmTajaran
+      connections:
+      - left_hand
+    right_hand:
+      part: RightHandTajaran
+    left_hand:
+      part: LeftHandTajaran
+    right_leg:
+      part: RightLegTajaran
+      connections:
+      - right_foot
+    left_leg:
+      part: LeftLegTajaran
+      connections:
+      - left_foot
+    right_foot:
+      part: RightFootTajaran
+    left_foot:
+=======
+    right arm:
+      part: RightArmTajaran
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmTajaran
+      connections:
+      - left hand
+    right hand:
+      part: RightHandTajaran
+    left hand:
+      part: LeftHandTajaran
+    right leg:
+      part: RightLegTajaran
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegTajaran
+      connections:
+      - left foot
+    right foot:
+      part: RightFootTajaran
+    left foot:
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Body/Prototypes/tajaran.yml
+      part: LeftFootTajaran

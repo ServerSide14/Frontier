@@ -1,0 +1,14 @@
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Body/Organs/tajaran.yml
+- type: entity
+=======
+﻿- type: entity
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Body/Organs/tajaran.yml
+  id: OrganTajaranStomach
+  parent: OrganAnimalStomach
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Stomach
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 50.0

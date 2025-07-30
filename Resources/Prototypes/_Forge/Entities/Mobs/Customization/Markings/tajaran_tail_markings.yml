@@ -1,0 +1,78 @@
+- type: marking
+  id: TajaranTailLeopard
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: leopard_s
+
+- type: marking
+  id: TajaranTailShort
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: short_s
+
+- type: marking
+  id: TajaranTailStraight
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: tajtail_s
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: default_tiger
+
+- type: marking
+  id: TajaranTailTiny
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: tiny_s
+
+# Animated
+- type: marking
+  id: TajaranTailLeopardAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: leopard_s_wagging
+
+- type: marking
+  id: TajaranTailShortAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: short_s_wagging
+
+- type: marking
+  id: TajaranTailStraightAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: tajtail_s_wagging
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: default_tiger_wagging
+
+- type: marking
+  id: TajaranTailTinyAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/tail_markings.rsi
+      state: tiny_s_wagging
+
+

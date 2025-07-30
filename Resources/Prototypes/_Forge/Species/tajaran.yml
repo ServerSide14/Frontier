@@ -1,0 +1,253 @@
+- type: species
+  id: Tajaran
+  name: species-name-tajaran
+  roundStart: true
+  prototype: MobTajaran
+  sprites: MobTajaranSprites
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+  defaultSkinTone: "#292420"
+  markingLimits: MobTajaranMarkingLimits
+  dollPrototype: MobTajaranDummy
+  skinColoration: Hues
+  naming: TajaranGenerator
+=======
+  defaultSkinTone: "#eb943d"
+  markingLimits: MobTajaranMarkingLimits
+  dollPrototype: MobTajaranDummy
+  skinColoration: Hues
+  maleFirstNames: NamesTajaranFirstMale
+  femaleFirstNames: NamesTajaranFirstFemale
+  lastNames: NamesTajaranLast
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+
+- type: speciesBaseSprites
+  id: MobTajaranSprites
+  sprites:
+    Head: MobTajaranHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Chest: MobTajaranTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    Eyes: MobHumanoidEyes
+=======
+    Eyes: MobTajaranEyes
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    LArm: MobTajaranLArm
+    RArm: MobTajaranRArm
+    LHand: MobTajaranLHand
+    RHand: MobTajaranRHand
+    LLeg: MobTajaranLLeg
+    RLeg: MobTajaranRLeg
+    LFoot: MobTajaranLFoot
+    RFoot: MobTajaranRFoot
+
+- type: markingPoints
+  id: MobTajaranMarkingLimits
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+  onlyWhitelisted: true
+  points:
+    HeadTop:
+      points: 1
+      required: false
+    Head:
+      points: 1
+=======
+  points:
+    FacialHair:
+      points: 0
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+      required: false
+    Hair:
+      points: 1
+      required: false
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    FacialHair:
+      points: 1
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ TajaranTailStraight ]
+    Chest:
+=======
+    Tail:
+      points: 1
+      required: false
+      defaultMarkings: [ TailM ]
+    Head:
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+      points: 1
+      required: false
+    Snout:
+      points: 1
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+      required: true
+      defaultMarkings: [ TajaranSnoutMarkingNose ]
+    HeadSide:
+      points: 1
+      required: false
+    Arms:
+      points: 4
+      required: false
+    Legs:
+      points: 4
+      required: false
+
+=======
+      required: false
+      # defaultMarkings: [ Nose ]
+    HeadTop:
+      points: 1
+      required: false
+      # defaultMarkings: [ Inears ]
+    UndergarmentTop:
+      points: 1
+      required: false
+    # HeadSide:
+    #   points: 1
+    #   required: false
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+
+- type: humanoidBaseSprite
+  id: MobTajaranHead
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranHeadMale
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranHeadFemale
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobTajaranTorso
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranTorsoMale
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranTorsoFemale
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobTajaranLLeg
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobTajaranLHand
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobTajaranLArm
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobTajaranLFoot
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobTajaranRLeg
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobTajaranRHand
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobTajaranRArm
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobTajaranRFoot
+  baseSprite:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Species/tajaran.yml
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Species/tajaran.yml
+    state: r_foot

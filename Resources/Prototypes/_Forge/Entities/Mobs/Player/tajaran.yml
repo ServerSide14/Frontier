@@ -1,0 +1,9 @@
+- type: entity
+  save: false
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Player/tajaran.yml
+  name: Urist McTajaran
+=======
+  name: Urist McTajar
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Player/tajaran.yml
+  parent: [BaseMobTajaran, BaseMob]
+  id: MobTajaran

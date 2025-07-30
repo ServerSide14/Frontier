@@ -1,0 +1,114 @@
+- type: marking
+  id: TajaranHeadTopMarkingInears
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: inears_s
+
+- type: marking
+  id: TajaranSnoutMarkingLynx
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: lynx_s
+
+- type: marking
+  id: TajaranHeadMarkingMuzinears
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: muzinears_s
+
+- type: marking
+  id: TajaranSnoutMarkingMuzzle
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: muzzle_s
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: snout_whiskers_s
+
+- type: marking
+  id: TajaranSnoutMarkingMuzzle2
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: muzzle2_s
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: snout_whiskers_s
+
+- type: marking
+  id: TajaranSnoutMarkingNose
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: nose_s
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: snout_whiskers_s
+
+- type: marking
+  id: TajaranHeadTopMarkingOutears
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: outears_s
+
+- type: marking
+  id: TajaranHeadMarkingPatch
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: patch_s
+
+- type: marking
+  id: TajaranHeadMarkingPoints
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: points_s
+
+- type: marking
+  id: TajaranHeadMarkingTigerFace
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: tiger_face_s
+
+- type: marking
+  id: TajaranHeadMarkingTigerHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: tiger_head_s
+
+- type: marking
+  id: TajaranHeadTopMarkingEarsPlain
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
+      state: ears_plain_s
+

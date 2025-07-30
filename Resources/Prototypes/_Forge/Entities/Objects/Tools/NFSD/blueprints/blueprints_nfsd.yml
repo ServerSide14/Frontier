@@ -1,0 +1,33 @@
+- type: entity
+  parent: NFBaseBlueprintExpedition
+  id: BlueprintRifleUranium
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - NFAmmunitionBoxShellShotgunIncendiary
+    - NFAmmunitionBoxShellShotgunUranium
+    - NFAmmunitionBoxRifle30Incendiary
+    - NFAmmunitionBoxRifle30Uranium
+    - NFAmmunitionBoxPistol45Incendiary
+    - NFAmmunitionBoxPistol45Uranium
+    - NFAmmunitionBoxRifle20Incendiary
+    - NFAmmunitionBoxRifle20Uranium
+
+- type: entity
+  parent: NFBaseBlueprintExpedition
+  id: BlueprintGrenade
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - NFGrenadeBlast
+    - NFGrenadeEMP
+    - NFMagazineGrenadeEmpty
+
+- type: entity
+  parent: NFBaseBlueprintExpedition
+  id: BaseBlueprintWeaponXrayCannon
+  components:
+  - type: Blueprint
+    providedRecipes:
+    - NFWeaponEnergyRifleSniperXrayCannon
+    - NFWeaponEnergyRifleSniperCannon

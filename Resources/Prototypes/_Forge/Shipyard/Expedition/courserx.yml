@@ -1,0 +1,46 @@
+# Author -
+# GitHub: -
+# Discord: -
+
+# Maintainer Info
+# GitHub: -
+# Discord: -
+
+# Shuttle Notes:
+
+ - type: vessel
+   id: CourserX
+   parent: BaseVessel
+   name: NT Дальнобойщик-Х
+   description: Среднегабаритный экспедиционный шаттл. Рекомендованный размер команды 3-6 человек.
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Shipyard/Expedition/courserx.yml
+   price: 85650 #Khorinis
+=======
+   price: 80200
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Shipyard/Expedition/courserx.yml
+   category: Medium
+   group: Expedition
+   shuttlePath: /Maps/Forge/Shuttles/Expedition/courserx.yml
+   guidebookPage: Null
+   class:
+   - Expedition
+
+ - type: gameMap
+   id: CourserX
+   mapName: 'NT Дальнобойщик-Х'
+   mapPath: /Maps/Forge/Shuttles/Expedition/courserx.yml
+   minPlayers: 0
+   stations:
+     CourserX:
+       stationProto: StandardFrontierExpeditionVessel
+       components:
+         - type: StationNameSetup
+           mapNameTemplate: 'Дальнобойщик-Х {1}'
+           nameGenerator:
+             !type:NanotrasenNameGenerator
+             prefixCreator: '14'
+         - type: StationJobs
+           availableJobs:
+             Contractor: [ 0, 0 ]
+             Pilot: [ 0, 0 ]
+             Mercenary: [ 0, 0 ]

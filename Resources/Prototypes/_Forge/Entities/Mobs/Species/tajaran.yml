@@ -1,0 +1,242 @@
+- type: entity
+  save: false
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+  name: Urist McTajaran
+  parent: BaseMobSpeciesOrganic
+=======
+  name: Urist McTajar
+  parent: BaseMobHuman
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+  id: BaseMobTajaran
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Tajaran
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Hunger # on 1.5x more
+    thresholds:
+      Overfed: 250
+      Okay: 200
+      Peckish: 150
+      Starving: 100
+      Dead: 0
+    baseDecayRate: 0.03
+  - type: Thirst
+    thresholds:
+      OverHydrated: 650
+      Okay: 500
+      Thirsty: 350
+      Parched: 200
+      Dead: 0
+  - type: Carriable
+  - type: TypingIndicator
+    proto: tajaran
+  - type: Icon
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+=======
+  - type: Thirst
+    baseDecayRate: 0.15
+  - type: Icon
+    sprite: Forge/Mobs/Species/Tajaran/parts.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+    state: full
+  - type: Body
+    prototype: Tajaran
+    requiredLegs: 2
+  - type: Inventory
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+    speciesId: tajaran
+=======
+    speciesId: reptilian # whyyy
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: jumpsuit-female
+      shoes:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: shoes
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+  - type: ContentEye
+    targetZoom: "1.125, 1.125"
+    maxZoom: "1.125, 1.125"
+  - type: Speech #TODOLIST Make sounds
+    #speechSounds:
+    speechVerb: Tajaran
+    allowedEmotes: ['Purr', 'PurrLong', 'Hiss']
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+            state: shoes
+  - type: ContentEye
+  - type: Speech
+    allowedEmotes: ['Purr']
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+  - type: Vocal
+    sounds:
+      Male: MaleTajaran
+      Female: FemaleTajaran
+      Unsexed: MaleTajaran
+  - type: GrowlingAccent
+  - type: MeleeWeapon
+    animation: WeaponArcClaw
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+    attackRate: 1.25
+=======
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+    soundHit:
+      collection: AlienClaw
+    damage:
+      types:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+        Slash: 4
+=======
+        Slash: 7
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Tajaran
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 2.0
+    damageRecovery:
+      types:
+        Asphyxiation: -2.0
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeat
+      amount: 4
+  - type: Wagging
+  - type: Temperature
+    heatDamageThreshold: 390
+    coldDamageThreshold: 230
+  - type: TemperatureSpeed
+    thresholds:
+      289: 0.8
+      275: 0.6
+      250: 0.4
+  - type: TemperatureProtection
+    coolingCoefficient: 0.4
+    heatingCoefficient: 0.4
+  - type: Sprite
+    scale: 0.85, 0.85
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.30
+        density: 125
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: KeenHearing
+    visionRadius: 8
+    highSensitiveVisionRadius: 4
+    addAction: true
+=======
+  - type: Wagging
+  - type: NightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
+  - type: Carriable # Frontier: Carrying system from nyanotrasen.
+  - type: ShortWhitelist # Frontier
+    scale: 0.8 # Frontier
+    density: 140 # Frontier
+    pseudoItem: true # Frontier
+    cosmeticOnly: false # Frontier
+  - type: TallWhitelist # Frontier
+    scale: 1.2 # Frontier
+  - type: Puller
+    needsHands: false
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+
+- type: entity
+  save: false
+  name: Urist McHands
+  parent: MobHumanDummy
+  id: MobTajaranDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy tajaran meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Tajaran
+  - type: Inventory
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+    speciesId: tajaran
+=======
+    speciesId: reptilian
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: jumpsuit-female
+      shoes:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: shoes
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+<<<<<<< HEAD:Resources/Prototypes/Corvax/Entities/Mobs/Species/tajaran.yml
+            sprite: Corvax/Mobs/Species/displacement.rsi
+=======
+            sprite: Forge/Mobs/Species/displacement.rsi
+>>>>>>> 85de094f6f685a548aa59639bab72b756036ab3f:Resources/Prototypes/_Forge/Entities/Mobs/Species/tajaran.yml
+            state: shoes

@@ -1,0 +1,275 @@
+- type: marking
+  id: TajaranChestCrest
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: crest_s
+
+- type: marking
+  id: TajaranChestFullbellyMan
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: fullbelly_man_s
+
+- type: marking
+  id: TajaranChestFullbellyWoman
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: fullbelly_woman_s
+
+# PATCHES
+
+- type: marking
+  id: TajarantPatchesChestFemale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_body_f
+
+- type: marking
+  id: TajaranPatchesChestMale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_body_m
+
+- type: marking
+  id: TajaranPatchesArmLeft
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_larm
+
+- type: marking
+  id: TajaranPatchesFootLeft
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_lfoot
+
+- type: marking
+  id: TajaranPatchesHandLeft
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_lhand
+
+- type: marking
+  id: TajaranPatchesLegLeft
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_lleg
+
+- type: marking
+  id: TajaranPatchesArmRight
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_rarm
+
+- type: marking
+  id: TajaranPatchesFootRight
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_rfoot
+
+- type: marking
+  id: TajaranPatchesHandRight
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_rhand
+
+- type: marking
+  id: TajaranPatchesLegRight
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: patch_rleg
+
+# POINTS
+
+- type: marking
+  id: TajaranPointsArmLeft
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_larm
+
+- type: marking
+  id: TajaranPointsFootLeft
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_lfoot
+
+- type: marking
+  id: TajaranPointsHandLeft
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_lhand
+
+- type: marking
+  id: TajaranPointsLegLeft
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_lleg
+
+
+- type: marking
+  id: TajaranPointsArmRight
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_rarm
+
+- type: marking
+  id: TajaranPointsFootRight
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_rfoot
+
+- type: marking
+  id: TajaranPointsHandRight
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_rhand
+
+- type: marking
+  id: TajaranPointsLegRight
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: points_rleg
+
+# TIGER STRIPES
+
+- type: marking
+  id: TajaranTigerStripesChestFemale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_body_f
+
+- type: marking
+  id: TajaranTigerStripesChestMale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_body_m
+
+- type: marking
+  id: TajaranTigerStripesArmLeft
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_larm
+
+
+- type: marking
+  id: TajaranTigerStripesLegLeft
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_lleg
+
+- type: marking
+  id: TajaranTigerStripesArmRight
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_rarm
+
+
+- type: marking
+  id: TajaranTigerStripesLegRight
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tiger_rleg
+
+# TIGER STRIPES & FULL BELLY
+
+- type: marking
+  id: TajaranTigerFullBellyChestM
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_m_back
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_m_front
+
+- type: marking
+  id: TajaranTigerFullBellyChestF
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_f_back
+    - sprite: Corvax/Mobs/Customization/Tajaran/body_markings.rsi
+      state: tigerfullbelly_body_f_front

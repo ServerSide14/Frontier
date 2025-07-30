@@ -1,0 +1,468 @@
+- type: marking
+  id: TajaranHairBangsEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: bangs_ears_s
+
+- type: marking
+  id: TajaranHairBangs
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: bangs_s
+
+- type: marking
+  id: TajaranHairBedhead
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: bedhead_s
+
+- type: marking
+  id: TajaranHairBobEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: bob_ears_s
+
+- type: marking
+  id: TajaranHairBob
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: bob_s
+
+- type: marking
+  id: TajaranHairBraidBeads
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: braid_beads_s
+
+- type: marking
+  id: TajaranHairBraidEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: braid_ears_s
+
+- type: marking
+  id: TajaranHairBraid
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: braid_s
+
+- type: marking
+  id: TajaranHairClean
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: clean_s
+
+- type: marking
+  id: TajaranHairCombedbackEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: combedback_ears_s
+
+- type: marking
+  id: TajaranHairCombedback
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: combedback_s
+
+- type: marking
+  id: TajaranHairCurly
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: curly_s
+
+- type: marking
+  id: TajaranHairCuttallEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: cuttall_ears_s
+
+- type: marking
+  id: TajaranHairCuttall
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: cuttall_s
+
+- type: marking
+  id: TajaranHairDreadlockEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: dreadlock_ears_s
+
+- type: marking
+  id: TajaranHairDreadlock
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: dreadlock_s
+
+- type: marking
+  id: TajaranHairFingerwaveEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: fingerwave_ears_s
+
+- type: marking
+  id: TajaranHairFingerwave
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: fingerwave_s
+
+- type: marking
+  id: TajaranHairLadiesRetro
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: ladiesretro_s
+
+- type: marking
+  id: TajaranHairLongEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: long_ears_s
+
+- type: marking
+  id: TajaranHairLong
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: long_s
+
+- type: marking
+  id: TajaranHairLongtailEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: longtail_ears_s
+
+- type: marking
+  id: TajaranHairLongtail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: longtail_s
+
+- type: marking
+  id: TajaranHairMarmalade
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: marmalade_s
+
+- type: marking
+  id: TajaranHairMessyEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: messy_ears_s
+
+- type: marking
+  id: TajaranHairMessy
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: messy_s
+
+- type: marking
+  id: TajaranHairMetal
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: metal_s
+
+- type: marking
+  id: TajaranHairMohawkEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: mohawk_ears_s
+
+- type: marking
+  id: TajaranHairMohawk
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: mohawk_s
+
+- type: marking
+  id: TajaranHairOvereyeEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: overeye_ears_s
+
+- type: marking
+  id: TajaranHairOvereye
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: overeye_s
+
+- type: marking
+  id: TajaranHairPlaitEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: plait_ears_s
+
+- type: marking
+  id: TajaranHairPlait
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: plait_s
+
+- type: marking
+  id: TajaranHairPonytailEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: ponytail_ears_s
+
+- type: marking
+  id: TajaranHairPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: ponytail_s
+
+- type: marking
+  id: TajaranHairRattailEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: rattail_ears_s
+
+- type: marking
+  id: TajaranHairRattail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: rattail_s
+
+- type: marking
+  id: TajaranHairRibbonsEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: ribbons_ears_s
+
+- type: marking
+  id: TajaranHairRibbons
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: ribbons_s
+
+- type: marking
+  id: TajaranHairShaggy
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: shaggy_s
+
+- type: marking
+  id: TajaranHairShyEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: shy_ears_s
+
+- type: marking
+  id: TajaranHairShy
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: shy_s
+
+- type: marking
+  id: TajaranHairSidebraidEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: sidebraid_ears_s
+
+- type: marking
+  id: TajaranHairSiderbaid
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: sidebraid_s
+
+- type: marking
+  id: TajaranHairSpikeyEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: spikey_ears_s
+
+- type: marking
+  id: TajaranHairSpikey
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: spikey_s
+
+- type: marking
+  id: TajaranHairStraight
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: straight_s
+
+- type: marking
+  id: TajaranHairTailedbangsEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: tailedbangs_ears_s
+
+- type: marking
+  id: TajaranHairTailedbangs
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: tailedbangs_s
+
+- type: marking
+  id: TajaranHairToughEars
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: tough_ears_s
+
+- type: marking
+  id: TajaranHairTough
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: tough_s
+
+- type: marking
+  id: TajaranHairVictory
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Tajaran]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Tajaran/hair.rsi
+      state: victory_s
+
