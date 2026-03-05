@@ -307,3 +307,5 @@ Resources/MapImages
 
 # Direnv stuff
  
+runserver - Release.bat
+/ServerFiles
